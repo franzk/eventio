@@ -1,0 +1,28 @@
+@import url('@/assets/scss/_font-roboto.scss');
+
+html {
+  margin: 0;
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  background-color: $secondary;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+}
+
+#app {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+}
+
+.skeleton {
+  background: $skeleton;
+  height: 1rem;
+  animation: pulse 1.5s infinite;
+}
